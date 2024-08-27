@@ -1,4 +1,4 @@
-This is an attempt on classify a series of tweets into two classes - disaster-related or not related.
+This is an attempt on classify a series of tweets into two classes - disaster-related or not related.<br />
 I performed preprocessing to clean the text to help enhance the model performance. This process included correcting some typos, removing non-english characters, special characters, digits, emojis, URLs, punctuations, aiming to make the data as clean as possible. 
 However, removing urls might have negetively impacted the model performance as many URLs appeared in disaster-related tweets.
 To compensate the lack of data, I used a low-level data augmentation technique, where words were randomly replaced to artificially generate more training data.
