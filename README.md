@@ -6,7 +6,7 @@ I trained a transformer model to classify the tweets and acheived 78% accuracy, 
 A similar project on kaggle used BERT and acheived 82% accuracy but still didn't acheived perfect predictions.
 
 Several thoughts on how to further improve the results:
-1. Fixing all the typos might help improve predictions, though this is very time-consuming and not generally recommended.
+1. Fixing all the typos might help improve predictions, though this is very time-consuming and generally not recommended.
 2. In this project I ignored the keyword column, which might be useful for improving predictions.
 3. Implementing a more advanced data-augmentation technique could involve replacing each keyword with a synonym to enhance the model.
 4. t-SNE could be used to generate data visualisations to examine whether there is text data overlap or not, which might explain why some data is difficult to predict accurately.
