@@ -10,4 +10,5 @@ Several thoughts on how to further improve the results:
 2. In this project I ignored the keyword column, which might be useful for improving predictions.
 3. Implementing a more advanced data-augmentation technique could involve replacing each keyword with a synonym to enhance the model.
 4. t-SNE could be used to generate data visualisations to examine whether there is text data overlap or not, which might explain why some data is difficult to predict accurately.
+5. Remove stop words and conduct lemmitisation to check the number of occurences of each unique words to identify the optimal number of words for the tokenizer.
 
